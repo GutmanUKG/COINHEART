@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/token_sales.html" beforeDir="false" afterPath="$PROJECT_DIR$/token_sales.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +37,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.token_sales.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="index-particle.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/index-particle.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -48,8 +49,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.token_sales.html" />
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.token_sales.html" />
         <item itemvalue="JavaScript Debug.index-particle.html" />
       </list>
     </recent_temporary>
@@ -67,7 +68,8 @@
       <workItem from="1588578231845" duration="3696000" />
       <workItem from="1588582199759" duration="578000" />
       <workItem from="1588673398886" duration="8706000" />
-      <workItem from="1588738122457" duration="13574000" />
+      <workItem from="1588738122457" duration="14255000" />
+      <workItem from="1588762352845" duration="3471000" />
     </task>
     <servers />
   </component>
@@ -79,7 +81,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
