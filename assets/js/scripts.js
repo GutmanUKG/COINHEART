@@ -345,12 +345,12 @@ Version      : 1.7
 
 
 
-	$('.wrap_slider').slick({
+	$('.wrap_sliders').slick({
 		dots: false,
 		infinite: false,
 		speed: 300,
 		arrows:true,
-		autoplay:true,
+		autoplay:false,
 		autoplaySpeed:5000,
 		slidesToShow: 1,
 		slidesToScroll: 1,

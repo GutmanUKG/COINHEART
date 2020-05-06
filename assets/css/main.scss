@@ -238,29 +238,7 @@
 h4{
   color: #000;
 }
-.wrap_slider{
-  max-width: 770px;
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-  .slick-prev{
-    position: absolute;
-    z-index: 20;
-    top: 50%;
-    left: 10%;
-    font-size: 0;
-    background: url("../img/basic-app.png") center no-repeat;
-    transform: rotate(180deg);
-  }
-  .slick-next{
-    position: absolute;
-    z-index: 20;
-    top: 50%;
-    left: 90%;
-    font-size: 0;
-    background: url("../img/basic-app.png") center no-repeat;
-  }
-}
+
 .footer_title{
     position: relative;
     font-size: 30px;
@@ -367,5 +345,103 @@ footer{
     -webkit-box-shadow: 6px 0px 25px 1px rgba(89,87,205,0.35);
     -moz-box-shadow: 6px 0px 25px 1px rgba(89,87,205,0.35);
     box-shadow: 6px 0px 25px 1px rgba(89,87,205,0.35);
+  }
+}
+
+.seo_fact_area{
+  background: url("../images/about_bg.png");
+}
+.title_fact{
+  padding-bottom: 15px;
+  &:after{
+    content: '';
+    width: 80px;
+    height: 3px;
+    display: block;
+    background: #5957cd;
+    margin: 15px auto;
+
+  }
+}
+.wrap_service{
+  //border-right: 1px dashed #5957cd;
+  //border-left: 1px dashed #5957cd;
+  border-top: 1px dashed #5957cd;
+  h5{
+    padding: 15px;
+  }
+  ul{
+    li{
+      list-style-type: decimal-leading-zero;
+      padding: 10px 15px;
+      border: 1px dashed #5957cd;
+      background:#fff;
+      border-radius: 25px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.wrap_sliders{
+  max-width: 770px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  background: #fff;
+  padding: 50px;
+  .slick-prev{
+    position: absolute;
+    z-index: 20;
+    top: 50%;
+    font-size: 0;
+    width: 50px;
+    height: 50px;
+    background:url("../img/TokenSales/fast-forward.png") center no-repeat ,linear-gradient(to right, #ff67cb 0%,#ffcc67 99%);
+    transform: rotate(180deg);
+
+  }
+  .slick-next{
+    position: absolute;
+    z-index: 20;
+    top: 50%;
+    font-size: 0;
+    width: 50px;
+    height: 50px;
+    left: 90%;
+    background:url("../img/TokenSales/fast-forward.png") center no-repeat ,linear-gradient(to right, #ff67cb 0%,#ffcc67 99%);
+
+  }
+}
+.slid {
+
+
+  .head_slid {
+
+    max-width: 500px;
+    margin: 20px auto;
+    .autor {
+      img {
+        max-width: 70px;
+      }
+    }
+
+    .autor_name {
+      text-align: center;
+
+      h5 {
+        color: #000;
+      }
+
+      h6 {
+        color: #7a7a7a;
+      }
+    }
+  }
+  .body_slid{
+    max-width: 500px;
+    margin: 0 auto;
+    p{
+  text-align: center;
+    }
   }
 }
