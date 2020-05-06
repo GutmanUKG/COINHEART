@@ -1,0 +1,11 @@
+@media (max-width: 991px) {
+  .wrap_text a {
+    margin: 20px auto; } }
+@media (max-width: 760px) {
+  .slick-prev {
+    display: none !important; }
+
+  .slick-next {
+    display: none !important; } }
+
+/*# sourceMappingURL=main_responsive.css.map */
