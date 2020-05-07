@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="6cc4be11-0e4f-4318-9731-fc3a557c8cec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airdrops.html" beforeDir="false" afterPath="$PROJECT_DIR$/airdrops.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logo2x-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/logo2x-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logo2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/logo2x.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/token_sales.html" beforeDir="false" afterPath="$PROJECT_DIR$/token_sales.html" afterDir="false" />
     </list>
@@ -70,6 +73,8 @@
       <workItem from="1588673398886" duration="8706000" />
       <workItem from="1588738122457" duration="14255000" />
       <workItem from="1588762352845" duration="3471000" />
+      <workItem from="1588766169827" duration="44000" />
+      <workItem from="1588826934104" duration="14761000" />
     </task>
     <servers />
   </component>

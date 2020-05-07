@@ -74,6 +74,7 @@
       max-height: 40px;
       margin-bottom: 20px;
       max-width: 100%;
+      width: 100%;
       &:nth-child(2){
         display: none;
       }
@@ -457,7 +458,6 @@ footer{
 .price_item{
   .title_item{
     width: 100%;
-
     background: #5957cd;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -466,7 +466,6 @@ footer{
         font-size: 26px;
         font-weight: bold;
         text-transform: uppercase;
-
         color: #000;
         text-align: center;
         margin-bottom:20px;
@@ -504,7 +503,7 @@ footer{
   justify-content: space-between;
   align-items: center;
   background: #fff;
-  min-height: 595px;
+  min-height: 501px;
   box-sizing: border-box;
   border-radius: 25px;
   border: 1px solid #5957cd;
@@ -583,5 +582,230 @@ footer{
   a{
     display: block;
     margin: 20px auto;
+    height: 24px;
   }
 }
+//
+//Airdrops//
+.col-lg-12{
+  .saas_banner_content{
+    .w_color{
+      color: #000!important;
+    }
+  }
+}
+.saas_banner_area{
+  background: url("../img/Airdrops/banner_bg1.png"), #5957cd;
+  border-radius: 0 0 250px;
+  .action_btn{
+    margin-bottom: 20px;
+  }
+  h2{
+    color: #fff;
+    font-size: 40px;
+  }
+  p{
+    color: #fff;
+    a{
+      color: #22b949;
+      &:hover{
+        color: #fff;
+      }
+    }
+  }
+}
+@keyframes parachute {
+  0% {
+    transform: translate(0);
+  }
+
+  33% {
+    transform: translate(-70px, 70px) rotateZ(3deg);
+
+  }
+
+  66% {
+    transform: translate(70px, 70px) rotateZ(-3deg);
+  }
+
+  100% {
+    transform: translate(0);
+
+  }
+}
+
+.parachute {
+  animation: parachute 7s cubic-bezier(0.47, 0, 0.75, 0.72) infinite;
+  transform-origin: top;
+}
+.cloud-left {
+  animation: cloud-left 4s cubic-bezier(0.47, 0, 0.75, 0.72) infinite;
+  transform-origin: left;
+}
+@keyframes cloud-left {
+  0% {
+    transform: translate(0) scale(1);
+  }
+
+  33% {
+    transform: translate(1px, -5px) rotateZ(-3deg);
+
+  }
+
+  66% {
+    transform: translate(5px, -5px) rotateZ(3deg) scale(1.1);
+
+  }
+
+  100% {
+    transform: translate(0) scale(1);
+  }
+}
+
+
+@keyframes dot-1 {
+  0% {
+    fill: #fff;
+  }
+
+  50% {
+    fill: #5f51fb;
+
+  }
+
+  100% {
+    fill: #fff;
+
+  }
+}
+.dot-1 {
+  animation: dot-1 4s cubic-bezier(0.47, 0, 0.75, 0.72) infinite;
+}
+.dots {
+  transition: 0.225s;
+}
+.dot-2 {
+  animation: dot-2 4s cubic-bezier(0.47, 0, 0.75, 0.72) infinite;
+
+}
+
+@keyframes dot-2 {
+  0% {
+    fill: #fff;
+  }
+
+  50% {
+    fill: #ae59cb;
+
+  }
+
+  100% {
+    fill: #fff;
+
+  }
+}
+
+.dot-3 {
+  animation: dot-3 4s cubic-bezier(0.47, 0, 0.75, 0.72) infinite;
+
+}
+
+@keyframes dot-3 {
+  0% {
+    fill: #fff;
+  }
+
+  50% {
+    fill: #fd609b;
+
+  }
+
+  100% {
+    fill: #fff;
+
+  }
+}
+
+.cloud-right {
+  animation: cloud-right 5s cubic-bezier(0.47, 0, 0.75, 0.72) infinite;
+  transform-origin: bottom;
+
+}
+
+@keyframes cloud-right {
+  0% {
+    transform: translateY(-5px) rotateZ(-1deg);
+  }
+
+  50% {
+    transform: translateY(5px) rotateZ(1deg);
+
+  }
+
+  100% {
+    transform: translateY(-5px) rotateZ(-1deg);
+
+  }
+}
+.software_featured_area{
+  background: url("../img/Airdrops/banner_bg1.png");
+}
+.dashboard_animate {
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+
+.title_software_featured{
+  font-size: 30px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 40px;
+
+}
+.software_featured_item{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 40px 20px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  -webkit-box-shadow: 3px 5px 5px 0px rgba(204, 204, 204, 0.5);
+  -moz-box-shadow: 3px 5px 5px 0px rgba(204, 204, 204, 0.5);
+  box-shadow: 3px 5px 5px 0px rgba(204, 204, 204, 0.5);
+  background: rgba(204, 204, 204, 0.5);
+  height: 100%;
+  .item_text_software{
+    h3{
+      display: block;
+      font-size: 30px;
+      margin: 30px 0px 25px;
+      color: #000;
+    }
+    p{
+      display: block;
+      font-size: 20px;
+    }
+  }
+
+  .icon_software_featured{
+    background: url("../img/Airdrops/icon_shape.png") center no-repeat;
+    max-width: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 92px;
+    margin-bottom: 20px;
+    img{
+     max-width: 55px;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+}
+.get_early{
+  margin: 20px auto;
+}
+//
