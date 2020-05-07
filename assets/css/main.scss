@@ -809,3 +809,25 @@ footer{
   margin: 20px auto;
 }
 //
+//Lend
+
+.digital_banner_area{
+  background: url("../img/lend/about_bg.png") , #000;
+  align-items: center;
+  min-height: 100vh;
+  display: flex;
+}
+.digital_content{
+  h2{
+    color: #fff;
+  }
+}
+
+.btn_wrap{
+  display: flex;
+  flex-wrap: nowrap;
+  button{
+    display: block;
+    margin-left: 10px;
+  }
+}
