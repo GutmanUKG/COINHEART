@@ -551,4 +551,44 @@ footer {
     display: block;
     margin-left: 10px; }
 
+.show {
+  display: block !important; }
+
+.modal-body {
+  padding: 2rem; }
+
+select#lend {
+  width: 100%; }
+
+button.close {
+  position: absolute;
+  top: 5px;
+  left: 93%;
+  width: 24px;
+  height: 24px;
+  display: block;
+  background: url("../img/lend/shapes-and-symbols.png") center no-repeat;
+  object-fit: contain; }
+
+select, .text_box input[type="text"], .text_box textarea, .text_box input[type="password"], .text_box input[type="email"] {
+  font-size: 1.7vh;
+  color: #222d39;
+  height: 60px;
+  border-radius: 4px;
+  background-color: white;
+  -webkit-box-shadow: 1px 3px 4px 0px rgba(12, 0, 46, 0.29);
+  box-shadow: 1px 3px 4px 0px rgba(12, 0, 46, 0.29);
+  width: 100%;
+  border: 1px solid #fff;
+  padding-left: 30px;
+  text-align: center; }
+
+.modal-content {
+  text-align: center; }
+
+.login-form {
+  display: flex;
+  flex-flow: column;
+  align-items: center; }
+
 /*# sourceMappingURL=main.css.map */
