@@ -487,12 +487,13 @@ Version      : 1.7
 	/*===================================*
 	12. POPUP JS
 	*===================================*/
-	$('.content-popup').magnificPopup({
-		type: 'inline',
-		preloader: true,
-		mainClass: 'mfp-zoom'
-	});
-	
+	// $('.content-popup').magnificPopup({
+	// 	type: 'inline',
+	// 	preloader: true,
+	// 	mainClass: 'mfp-zoom'
+	// });
+
+
 	/*===================================*
 	13. ANIMATION JS
 	*===================================*/
