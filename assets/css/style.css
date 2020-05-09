@@ -4176,10 +4176,9 @@ header a:hover,
 	color: #5957cd;
 }
 .faq_content .card-body {
-	background-color: #5957cd;
-	border-radius: 0 0 5px 5px;
-	color: #ffffff;
-	padding: 10px 15px;
+
+
+
 	position: relative;
 	z-index: 1;
 }
