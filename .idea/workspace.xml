@@ -3,10 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="6cc4be11-0e4f-4318-9731-fc3a557c8cec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airdrops.html" beforeDir="false" afterPath="$PROJECT_DIR$/airdrops.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/careers.html" beforeDir="false" afterPath="$PROJECT_DIR$/careers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lend.html" beforeDir="false" afterPath="$PROJECT_DIR$/lend.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/token_sales.html" beforeDir="false" afterPath="$PROJECT_DIR$/token_sales.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +93,7 @@
       <workItem from="1588847454325" duration="185000" />
       <workItem from="1588848160284" duration="4242000" />
       <workItem from="1588924932552" duration="7077000" />
-      <workItem from="1588998595394" duration="13435000" />
+      <workItem from="1588998595394" duration="14767000" />
     </task>
     <servers />
   </component>

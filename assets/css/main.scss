@@ -612,7 +612,8 @@ footer{
   p{
     color: #fff;
     a{
-      color: #22b949;
+      color: rgba(21, 165, 237, 1);
+      margin-left: 10px;
       &:hover{
         color: #fff;
       }
@@ -780,7 +781,7 @@ footer{
   -webkit-box-shadow: 3px 5px 5px 0px rgba(204, 204, 204, 0.5);
   -moz-box-shadow: 3px 5px 5px 0px rgba(204, 204, 204, 0.5);
   box-shadow: 3px 5px 5px 0px rgba(204, 204, 204, 0.5);
-  background: rgba(204, 204, 204, 0.5);
+  background: rgba(119, 161, 181,0.5);
   height: 100%;
   .item_text_software{
     h3{
@@ -796,15 +797,18 @@ footer{
   }
 
   .icon_software_featured{
-    background: url("../img/Airdrops/icon_shape.png") center no-repeat;
-    max-width: 120px;
+    max-width: 85px;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    height: 92px;
-    margin-bottom: 20px;
+    margin: 0 auto;
+    border-radius: 100%;
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+    background-color: #5957cd;
     img{
-     max-width: 55px;
+      filter: brightness(0);
+      max-width: 55px;
+      height: 55px;
       width: 100%;
       object-fit: contain;
     }
@@ -842,7 +846,7 @@ footer{
 }
 
 .modal-body{
-  padding: 2rem;
+  padding: 1.5rem;
 }
 select#lend{
   width: 100%;

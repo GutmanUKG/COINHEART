@@ -413,7 +413,8 @@ footer {
   .saas_banner_area p {
     color: #fff; }
     .saas_banner_area p a {
-      color: #22b949; }
+      color: #15a5ed;
+      margin-left: 10px; }
       .saas_banner_area p a:hover {
         color: #fff; }
 
@@ -513,7 +514,7 @@ footer {
   -webkit-box-shadow: 3px 5px 5px 0px rgba(204, 204, 204, 0.5);
   -moz-box-shadow: 3px 5px 5px 0px rgba(204, 204, 204, 0.5);
   box-shadow: 3px 5px 5px 0px rgba(204, 204, 204, 0.5);
-  background: rgba(204, 204, 204, 0.5);
+  background: rgba(119, 161, 181, 0.5);
   height: 100%; }
   .software_featured_item .item_text_software h3 {
     display: block;
@@ -524,15 +525,18 @@ footer {
     display: block;
     font-size: 20px; }
   .software_featured_item .icon_software_featured {
-    background: url("../img/Airdrops/icon_shape.png") center no-repeat;
-    max-width: 120px;
+    max-width: 85px;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    height: 92px;
-    margin-bottom: 20px; }
+    margin: 0 auto;
+    border-radius: 100%;
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+    background-color: #5957cd; }
     .software_featured_item .icon_software_featured img {
+      filter: brightness(0);
       max-width: 55px;
+      height: 55px;
       width: 100%;
       object-fit: contain; }
 
@@ -559,7 +563,7 @@ footer {
   display: block !important; }
 
 .modal-body {
-  padding: 2rem; }
+  padding: 1.5rem; }
 
 select#lend {
   width: 100%; }
