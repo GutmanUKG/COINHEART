@@ -1076,3 +1076,72 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
 .mb-30{
   margin-bottom: 30px;
 }
+//applay
+.new_startup_banner{
+  background: #5957cd;
+}
+#app_body{
+  #content{
+
+    ul{
+
+      li{
+        color: #9ec7e9;
+        list-style: decimal;
+      }
+    }
+  }
+
+
+}
+.app-title{
+  color: #000;
+}
+.app_head{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  .location{
+    color: #000;
+  }
+  span{
+    color: #000;
+  }
+  .app_link{
+    color: #15a5ed;
+  }
+}
+
+.login_info{
+
+  form{
+
+  }
+}
+.w_color {
+  color: #fff;
+}
+.link_form{
+  transition: all 0.2s linear;
+}
+
+.card-header{
+  h5{
+    button{
+      font-size: 10px;
+    }
+  }
+}
+
+@media(max-width: 424px){
+
+  .card-header{
+    h5{
+      button{
+        font-size: 7px;
+      }
+    }
+  }
+}

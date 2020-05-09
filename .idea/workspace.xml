@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6cc4be11-0e4f-4318-9731-fc3a557c8cec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/careers.html" beforeDir="false" afterPath="$PROJECT_DIR$/careers.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,11 +43,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.careers.html">
+  <component name="RunManager" selected="JavaScript Debug.fullstack-engineer.html">
     <configuration name="careers.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/careers.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index-particle.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/index-particle.html" useBuiltInWebServerPort="true">
+    <configuration name="exchange_engineer.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/exchange_engineer.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="fullstack-engineer.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/fullstack-engineer.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/index.html" useBuiltInWebServerPort="true">
@@ -54,16 +59,13 @@
     <configuration name="lend.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/lend.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="token_sales.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/token_sales.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.fullstack-engineer.html" />
+        <item itemvalue="JavaScript Debug.exchange_engineer.html" />
         <item itemvalue="JavaScript Debug.careers.html" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.lend.html" />
-        <item itemvalue="JavaScript Debug.token_sales.html" />
-        <item itemvalue="JavaScript Debug.index-particle.html" />
       </list>
     </recent_temporary>
   </component>
@@ -87,7 +89,7 @@
       <workItem from="1588847454325" duration="185000" />
       <workItem from="1588848160284" duration="4242000" />
       <workItem from="1588924932552" duration="7077000" />
-      <workItem from="1588998595394" duration="16152000" />
+      <workItem from="1588998595394" duration="19011000" />
     </task>
     <servers />
   </component>
