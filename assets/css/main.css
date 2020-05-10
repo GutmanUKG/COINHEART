@@ -789,4 +789,33 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
     display: flex;
     flex-flow: column; }
 
+#about {
+  background: #314bd3; }
+
+.wrap_box_monet {
+  justify-content: center; }
+
+.item_monet {
+  text-align: center;
+  min-height: 716px; }
+  .item_monet h4 {
+    color: #fff; }
+  .item_monet p {
+    color: #fff; }
+  .item_monet img {
+    max-width: 150px;
+    width: 100%;
+    object-fit: contain;
+    margin: 0 auto;
+    height: 140px; }
+
+.sec_aplication {
+  background: #fff; }
+  .sec_aplication h4 {
+    color: #000; }
+    .sec_aplication h4:before {
+      background-color: #000 !important; }
+  .sec_aplication p {
+    color: #000; }
+
 /*# sourceMappingURL=main.css.map */
