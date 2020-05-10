@@ -1360,7 +1360,7 @@ header a:hover,
 	top: 0;
 }
 .transparent_effect.fixed {
-	position: fixed;
+	/*position: fixed;*/
 	z-index:1;
 }
 .banner_rouded_bg {

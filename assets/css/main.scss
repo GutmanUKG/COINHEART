@@ -1,4 +1,6 @@
-
+h1,h2,h4,h5,h6{
+  font-weight: bold;
+}
 .navbar-brand {
   max-width: 230px;
   width: 100%;
@@ -331,7 +333,7 @@ footer {
 //Token_sales css
 .token_banner {
 
-  background: url("../img/TokenSales/shape_two.png"), #0a257c;
+  background: url("../img/TokenSales/banner_bg2.png"), #0a257c;
 
 }
 
@@ -445,7 +447,9 @@ footer {
     }
   }
 }
-
+.slider_section{
+  background: #ebf1f7;
+}
 .wrap_sliders {
   max-width: 770px;
   width: 100%;
@@ -668,7 +672,9 @@ footer {
     }
   }
 }
-
+.sec_airdrops{
+  padding-bottom: 50px!important;
+}
 .saas_banner_area {
   background: url("../img/Airdrops/banner_bg1.png"), #5957cd;
   border-radius: 0 0 250px;
@@ -865,7 +871,7 @@ footer {
   -webkit-box-shadow: 3px 5px 5px 0px rgba(204, 204, 204, 0.5);
   -moz-box-shadow: 3px 5px 5px 0px rgba(204, 204, 204, 0.5);
   box-shadow: 3px 5px 5px 0px rgba(204, 204, 204, 0.5);
-  background: rgba(119, 161, 181, 0.5);
+  background: #ebf1f7;
   height: 100%;
 
   .item_text_software {
@@ -983,10 +989,11 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
 //careers
 
 .company_banner_area {
-  background:linear-gradient(125deg, #5f51fb 0%, #ae59cb 64%, #fd609b 100%);
+  background: linear-gradient(125deg, #5f51fb 0%, #ae59cb 64%, #fd609b 100%);
   position: relative;
   z-index: 1;
-  .bg_banner{
+
+  .bg_banner {
     position: absolute;
     top: 0;
     left: 0;
@@ -1157,7 +1164,7 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
 }
 
 .card-body {
-  background: rgba(0, 0, 0, 0.5);
+  background: #ebf1f7;
   padding: 20px;
   border-radius: 25px;
   margin-top: 15px;
@@ -1232,7 +1239,7 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
 }
 
 .app-title {
-  color: #000;
+  color: #fff;
 }
 
 .app_head {
@@ -1243,11 +1250,11 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
   flex-wrap: wrap;
 
   .location {
-    color: #000;
+    color: #fff;
   }
 
   span {
-    color: #000;
+    color: #fff;
   }
 
   .app_link {
@@ -1273,12 +1280,12 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
 .card-header {
   h5 {
     button {
-      font-size: 10px;
+      font-size: 1rem;
     }
   }
 }
 
-@media(max-width: 424px) {
+@media(max-width: 768px) {
 
   .card-header {
     h5 {
@@ -1342,18 +1349,155 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
     height: 140px;
   }
 }
-
-
-.sec_aplication{
-  background: #fff;
-
-  h4{
+.section_video{
+  h2{
     color: #000;
-    &:before{
-      background-color:#000!important; ;
+    &:after{
+      content: '';
+      width: 80px;
+      height: 3px;
+      display: block;
+      background: #000;
+      margin: 20px auto;
     }
   }
-  p{
+  .video-center{
+    max-width: 700px;
+    max-height: 470px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      padding-top: 30px;
+      height: 0;
+      overflow: hidden;
+      border: 12px solid rgba(25,61,192,1);
+      border-radius: 6px;
+    }
+
+  }
+}
+.video-container iframe, .video-container object, .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.sec_aplication {
+  background: #fff;
+
+  h4 {
+    color: #000;
+
+    &:before {
+      background-color: #000 !important;;
+    }
+  }
+
+  p {
     color: #000;
   }
+}
+
+.get_started_area {
+
+  h2 {
+    color: #000;
+
+    &:after {
+      content: '';
+      width: 80px;
+      height: 3px;
+      background: #000;
+      display: block;
+      margin: 20px auto;
+    }
+  }
+}
+
+.section_banner_zeon {
+  background: linear-gradient(270deg, rgba(25, 61, 192, 1) 0%, rgba(10, 29, 149, 1) 50%, rgba(25, 61, 192, 1) 100%);
+}
+
+
+.section_credit_lines {
+  background: #f9f9fc;
+
+  h2 {
+    color: #fff;
+    margin-bottom: 20px;
+
+    &:after {
+      content: '';
+      width: 80px;
+      height: 3px;
+      display: block;
+      background: #fff;
+      margin: 20px auto;
+    }
+  }
+
+  p {
+    color: #fff;
+  }
+}
+
+.wallet_todo {
+  li {
+    list-style: none;
+    text-align: left;
+  }
+}
+
+.section_wallet_features{
+  background: rgb(8,103,206);
+  h2{
+    color: #fff;
+
+    &:after{
+      content: '';
+      width: 80px;
+      height: 3px;
+      background: #fff;
+      display: block;
+      margin: 20px auto;
+    }
+  }
+  .text_wallet{
+    color: #fff;
+  }
+}
+.item_pack {
+  padding: 2rem;
+  margin-bottom: 20px;
+  background: linear-gradient(40deg, #290a59 0%, #3d57f4 100%);
+  border-radius: 5px;
+  position: relative;
+  &:before{
+    border: 3px solid #ff67cb;
+    border-radius: 10px;
+    bottom: 30px;
+    content: "";
+    left: -30px;
+    position: absolute;
+    right: -30px;
+    top: -30px;
+    z-index: -1;
+  }
+  h6{
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 18px;
+  }
+  p{
+    font-size: 15px;
+  }
+}
+
+.section_credit_lines{
+  background: rgb(21,28,209);
 }

@@ -1,3 +1,6 @@
+h1, h2, h4, h5, h6 {
+  font-weight: bold; }
+
 .navbar-brand {
   max-width: 230px;
   width: 100%;
@@ -195,7 +198,7 @@ footer {
     display: block; }
 
 .token_banner {
-  background: url("../img/TokenSales/shape_two.png"), #0a257c; }
+  background: url("../img/TokenSales/banner_bg2.png"), #0a257c; }
 
 .container .row .col-lg-12 h2 {
   padding-top: 100px;
@@ -262,6 +265,9 @@ footer {
     background: #fff;
     border-radius: 25px;
     margin-bottom: 10px; }
+
+.slider_section {
+  background: #ebf1f7; }
 
 .wrap_sliders {
   max-width: 770px;
@@ -402,6 +408,9 @@ footer {
 .col-lg-12 .saas_banner_content .w_color {
   color: #000 !important; }
 
+.sec_airdrops {
+  padding-bottom: 50px !important; }
+
 .saas_banner_area {
   background: url("../img/Airdrops/banner_bg1.png"), #5957cd;
   border-radius: 0 0 250px; }
@@ -514,7 +523,7 @@ footer {
   -webkit-box-shadow: 3px 5px 5px 0px rgba(204, 204, 204, 0.5);
   -moz-box-shadow: 3px 5px 5px 0px rgba(204, 204, 204, 0.5);
   box-shadow: 3px 5px 5px 0px rgba(204, 204, 204, 0.5);
-  background: rgba(119, 161, 181, 0.5);
+  background: #ebf1f7;
   height: 100%; }
   .software_featured_item .item_text_software h3 {
     display: block;
@@ -712,7 +721,7 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
   color: #000 !important; }
 
 .card-body {
-  background: rgba(0, 0, 0, 0.5);
+  background: #ebf1f7;
   padding: 20px;
   border-radius: 25px;
   margin-top: 15px; }
@@ -757,7 +766,7 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
   list-style: decimal; }
 
 .app-title {
-  color: #000; }
+  color: #fff; }
 
 .app_head {
   display: flex;
@@ -766,9 +775,9 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
   margin-top: 50px;
   flex-wrap: wrap; }
   .app_head .location {
-    color: #000; }
+    color: #fff; }
   .app_head span {
-    color: #000; }
+    color: #fff; }
   .app_head .app_link {
     color: #15a5ed; }
 
@@ -779,9 +788,9 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
   transition: all 0.2s linear; }
 
 .card-header h5 button {
-  font-size: 10px; }
+  font-size: 1rem; }
 
-@media (max-width: 424px) {
+@media (max-width: 768px) {
   .card-header h5 button {
     font-size: 7px; } }
 #description_form {
@@ -821,6 +830,37 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
     margin: 0 auto;
     height: 140px; }
 
+.section_video h2 {
+  color: #000; }
+  .section_video h2:after {
+    content: '';
+    width: 80px;
+    height: 3px;
+    display: block;
+    background: #000;
+    margin: 20px auto; }
+.section_video .video-center {
+  max-width: 700px;
+  max-height: 470px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+  .section_video .video-center .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    border: 12px solid #193dc0;
+    border-radius: 6px; }
+
+.video-container iframe, .video-container object, .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
 .sec_aplication {
   background: #fff; }
   .sec_aplication h4 {
@@ -829,5 +869,77 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
       background-color: #000 !important; }
   .sec_aplication p {
     color: #000; }
+
+.get_started_area h2 {
+  color: #000; }
+  .get_started_area h2:after {
+    content: '';
+    width: 80px;
+    height: 3px;
+    background: #000;
+    display: block;
+    margin: 20px auto; }
+
+.section_banner_zeon {
+  background: linear-gradient(270deg, #193dc0 0%, #0a1d95 50%, #193dc0 100%); }
+
+.section_credit_lines {
+  background: #f9f9fc; }
+  .section_credit_lines h2 {
+    color: #fff;
+    margin-bottom: 20px; }
+    .section_credit_lines h2:after {
+      content: '';
+      width: 80px;
+      height: 3px;
+      display: block;
+      background: #fff;
+      margin: 20px auto; }
+  .section_credit_lines p {
+    color: #fff; }
+
+.wallet_todo li {
+  list-style: none;
+  text-align: left; }
+
+.section_wallet_features {
+  background: #0867ce; }
+  .section_wallet_features h2 {
+    color: #fff; }
+    .section_wallet_features h2:after {
+      content: '';
+      width: 80px;
+      height: 3px;
+      background: #fff;
+      display: block;
+      margin: 20px auto; }
+  .section_wallet_features .text_wallet {
+    color: #fff; }
+
+.item_pack {
+  padding: 2rem;
+  margin-bottom: 20px;
+  background: linear-gradient(40deg, #290a59 0%, #3d57f4 100%);
+  border-radius: 5px;
+  position: relative; }
+  .item_pack:before {
+    border: 3px solid #ff67cb;
+    border-radius: 10px;
+    bottom: 30px;
+    content: "";
+    left: -30px;
+    position: absolute;
+    right: -30px;
+    top: -30px;
+    z-index: -1; }
+  .item_pack h6 {
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 18px; }
+  .item_pack p {
+    font-size: 15px; }
+
+.section_credit_lines {
+  background: #151cd1; }
 
 /*# sourceMappingURL=main.css.map */

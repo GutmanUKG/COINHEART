@@ -3,10 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="6cc4be11-0e4f-4318-9731-fc3a557c8cec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airdrops.html" beforeDir="false" afterPath="$PROJECT_DIR$/airdrops.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/careers.html" beforeDir="false" afterPath="$PROJECT_DIR$/careers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_engineer.html" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_engineer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-engineer.html" beforeDir="false" afterPath="$PROJECT_DIR$/fullstack-engineer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lead-application-security-engineer.html" beforeDir="false" afterPath="$PROJECT_DIR$/lead-application-security-engineer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lead-exchange-devops.html" beforeDir="false" afterPath="$PROJECT_DIR$/lead-exchange-devops.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monet.html" beforeDir="false" afterPath="$PROJECT_DIR$/monet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeon.html" beforeDir="false" afterPath="$PROJECT_DIR$/zeon.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +34,7 @@
   <component name="ProjectId" id="1bQxgfr3SReRnJCVWdcKjw8SgGH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -43,29 +51,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.monet.html">
+  <component name="RunManager" selected="JavaScript Debug.lead-application-security-engineer.html">
     <configuration name="fullstack-engineer.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/fullstack-engineer.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/login.html" useBuiltInWebServerPort="true">
+    <configuration name="lead-application-security-engineer.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/lead-application-security-engineer.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="lead-exchange-devops.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/lead-exchange-devops.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="monet.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/monet.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="signup.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/signup.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.lead-application-security-engineer.html" />
+        <item itemvalue="JavaScript Debug.lead-exchange-devops.html" />
+        <item itemvalue="JavaScript Debug.fullstack-engineer.html" />
         <item itemvalue="JavaScript Debug.monet.html" />
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.signup.html" />
-        <item itemvalue="JavaScript Debug.login.html" />
-        <item itemvalue="JavaScript Debug.fullstack-engineer.html" />
       </list>
     </recent_temporary>
   </component>
@@ -91,7 +99,7 @@
       <workItem from="1588924932552" duration="7077000" />
       <workItem from="1588998595394" duration="19011000" />
       <workItem from="1589083627700" duration="4967000" />
-      <workItem from="1589099257969" duration="6635000" />
+      <workItem from="1589099257969" duration="15924000" />
     </task>
     <servers />
   </component>
