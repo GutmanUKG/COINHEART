@@ -983,7 +983,21 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
 //careers
 
 .company_banner_area {
-  background: -webkit-linear-gradient(125deg, #5f51fb 0%, #ae59cb 64%, #fd609b 100%);
+  background:linear-gradient(125deg, #5f51fb 0%, #ae59cb 64%, #fd609b 100%);
+  position: relative;
+  z-index: 1;
+  .bg_banner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.5;
+  }
+
 }
 
 .company_banner_content {
