@@ -1125,7 +1125,7 @@ header.active,
 	box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
 }
 header.nav-fixed {
-	height: 70px;
+	height: 80px;
 	padding: 5px 0;
 }
 .nav-fixed .navbar-brand img {
