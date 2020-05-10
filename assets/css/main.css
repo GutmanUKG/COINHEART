@@ -772,5 +772,21 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
 @media (max-width: 424px) {
   .card-header h5 button {
     font-size: 7px; } }
+#description_form {
+  color: #000; }
+
+.breadcrumb_area {
+  background: url("../img/login_register/video_img2.jpg");
+  padding: 235px 0px 125px;
+  background-size: contain; }
+
+.link_privacy {
+  font-size: 12px; }
+
+.faq_tab {
+  margin-bottom: 20px; }
+  .faq_tab ul {
+    display: flex;
+    flex-flow: column; }
 
 /*# sourceMappingURL=main.css.map */
