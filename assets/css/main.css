@@ -544,7 +544,6 @@ footer {
     position: relative;
     background-color: #5957cd; }
     .software_featured_item .icon_software_featured img {
-      filter: brightness(0);
       max-width: 55px;
       height: 55px;
       width: 100%;
@@ -648,7 +647,6 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
   border-radius: 25px; }
 
 .rounded_border_icon img {
-  filter: brightness(0);
   max-width: 55px;
   height: 55px;
   width: 100%;
@@ -1208,5 +1206,32 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
   .sec_satt .title_satt img {
     max-width: 200px;
     width: 100%; }
+
+.title_agency_testimonial h4 {
+  margin-bottom: 40px; }
+
+.saas_service_area h4 {
+  margin-bottom: 20px; }
+.saas_service_area p {
+  margin-bottom: 20px; }
+.saas_service_area img {
+  border: 5px solid #5957cd;
+  border-radius: 25px; }
+
+.head_slid img {
+  border-radius: 50%;
+  margin: 20px auto; }
+
+.wrap_item_saat img {
+  margin: 20px auto; }
+.wrap_item_saat h4 {
+  margin-bottom: 20px; }
+.wrap_item_saat ul {
+  padding: 10px 20px;
+  box-sizing: border-box; }
+  .wrap_item_saat ul li {
+    list-style: none; }
+    .wrap_item_saat ul li:nth-child(even) {
+      background: #dee2e6; }
 
 /*# sourceMappingURL=main.css.map */
