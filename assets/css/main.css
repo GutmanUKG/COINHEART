@@ -919,6 +919,9 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
   .section_wallet_features .text_wallet {
     color: #fff; }
 
+@media (max-width: 768px) {
+  .item_pack:before {
+    display: none; } }
 .item_pack {
   padding: 2rem;
   margin-bottom: 20px;
@@ -1153,5 +1156,25 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
 
 .particles-js-canvas-el {
   z-index: -1; }
+
+.sec_imp_banner {
+  background: url("../img/coinimp/whitepaper_pattern.png") bottom no-repeat, #000; }
+  .sec_imp_banner h2 {
+    color: #fff; }
+  .sec_imp_banner p {
+    color: #fff; }
+  .sec_imp_banner img {
+    cursor: pointer; }
+
+.item_imp .border {
+  height: 3px;
+  background: #5957cd;
+  margin-bottom: 20px; }
+.item_imp img {
+  max-width: 200px;
+  width: 100%; }
+
+.sec_imp_banner canvas {
+  position: fixed; }
 
 /*# sourceMappingURL=main.css.map */

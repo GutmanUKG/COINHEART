@@ -6,13 +6,7 @@
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exchange_engineer.html" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_engineer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fullstack-engineer.html" beforeDir="false" afterPath="$PROJECT_DIR$/fullstack-engineer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/investorsupport.html" beforeDir="false" afterPath="$PROJECT_DIR$/investorsupport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lead-application-security-engineer.html" beforeDir="false" afterPath="$PROJECT_DIR$/lead-application-security-engineer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lead-exchange-devops.html" beforeDir="false" afterPath="$PROJECT_DIR$/lead-exchange-devops.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/token_sales.html" beforeDir="false" afterPath="$PROJECT_DIR$/token_sales.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coinimp.html" beforeDir="false" afterPath="$PROJECT_DIR$/coinimp.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +93,8 @@
       <workItem from="1588998595394" duration="19011000" />
       <workItem from="1589083627700" duration="4967000" />
       <workItem from="1589099257969" duration="15924000" />
-      <workItem from="1589118079064" duration="1321000" />
+      <workItem from="1589118079064" duration="1935000" />
+      <workItem from="1589172329929" duration="3633000" />
     </task>
     <servers />
   </component>
