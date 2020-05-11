@@ -1201,4 +1201,12 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
   margin-top: 10px;
   margin-bottom: 10px; }
 
+.sec_satt {
+  background: url("../img/satt/about_bg.png"), #0b0b0b; }
+  .sec_satt .title_satt p {
+    margin-top: 20px; }
+  .sec_satt .title_satt img {
+    max-width: 200px;
+    width: 100%; }
+
 /*# sourceMappingURL=main.css.map */

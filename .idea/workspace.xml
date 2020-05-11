@@ -6,7 +6,6 @@
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/modal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/satt.html" beforeDir="false" afterPath="$PROJECT_DIR$/satt.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,7 +94,7 @@
       <workItem from="1589083627700" duration="4967000" />
       <workItem from="1589099257969" duration="15924000" />
       <workItem from="1589118079064" duration="1935000" />
-      <workItem from="1589172329929" duration="5908000" />
+      <workItem from="1589172329929" duration="7407000" />
     </task>
     <servers />
   </component>
