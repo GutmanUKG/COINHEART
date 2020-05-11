@@ -10,12 +10,12 @@ window.addEventListener('DOMContentLoaded' , function () {
             i.addEventListener('click' , function (event) {
                 let target = event.target;
                 if(target && target.classList.contains('modal_one')){
-                    modalLend.classList.add('show');
+                    modalLend.classList.add('show_modal');
 
                     document.body.style.overflow = "hidden";
                 }
                 if(target && target.classList.contains('modal_two')){
-                    modalBorrow.classList.add('show');
+                    modalBorrow.classList.add('show_modal');
 
                     document.body.style.overflow = "hidden";
                 }
@@ -25,8 +25,8 @@ window.addEventListener('DOMContentLoaded' , function () {
             i.addEventListener('click', function (event) {
                let target = event.target;
                if(target && target.classList.contains('close')){
-                   modalLend.classList.remove('show');
-                   modalBorrow.classList.remove('show');
+                   modalLend.classList.remove('show_modal');
+                   modalBorrow.classList.remove('show_modal');
                    document.body.style.overflow = "";
                }
             })

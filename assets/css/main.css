@@ -569,8 +569,12 @@ footer {
     display: block;
     margin-left: 10px; }
 
-.show {
+.show_modal {
   display: block !important; }
+
+.modal-dialog {
+  max-width: 500px;
+  margin: 10% auto; }
 
 .modal-body {
   padding: 1.5rem; }
@@ -1176,5 +1180,25 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
 
 .sec_imp_banner canvas {
   position: fixed; }
+
+.account-info ul .hover-elem {
+  color: #fff;
+  position: relative; }
+  .account-info ul .hover-elem:hover ul {
+    display: block; }
+  .account-info ul .hover-elem ul {
+    position: absolute;
+    display: none; }
+    .account-info ul .hover-elem ul li a {
+      color: #fff; }
+      .account-info ul .hover-elem ul li a:hover {
+        color: #ff69c9; }
+
+.navbar .show {
+  display: flex !important;
+  flex-flow: column; }
+.navbar .account-info {
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 /*# sourceMappingURL=main.css.map */

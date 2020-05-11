@@ -6,7 +6,8 @@
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coinimp.html" beforeDir="false" afterPath="$PROJECT_DIR$/coinimp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/satt.html" beforeDir="false" afterPath="$PROJECT_DIR$/satt.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +45,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.token_sales.html">
+  <component name="RunManager" selected="JavaScript Debug.index_login.html">
     <configuration name="fullstack-engineer.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/fullstack-engineer.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index_login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/index_login.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="lead-application-security-engineer.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/lead-application-security-engineer.html" useBuiltInWebServerPort="true">
@@ -54,19 +58,16 @@
     <configuration name="lead-exchange-devops.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/lead-exchange-devops.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="monet.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/monet.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <configuration name="token_sales.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/token_sales.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index_login.html" />
         <item itemvalue="JavaScript Debug.token_sales.html" />
         <item itemvalue="JavaScript Debug.lead-application-security-engineer.html" />
         <item itemvalue="JavaScript Debug.lead-exchange-devops.html" />
         <item itemvalue="JavaScript Debug.fullstack-engineer.html" />
-        <item itemvalue="JavaScript Debug.monet.html" />
       </list>
     </recent_temporary>
   </component>
@@ -94,7 +95,7 @@
       <workItem from="1589083627700" duration="4967000" />
       <workItem from="1589099257969" duration="15924000" />
       <workItem from="1589118079064" duration="1935000" />
-      <workItem from="1589172329929" duration="3633000" />
+      <workItem from="1589172329929" duration="5908000" />
     </task>
     <servers />
   </component>

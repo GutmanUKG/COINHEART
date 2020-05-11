@@ -942,10 +942,13 @@ footer {
 }
 
 //modal
-.show {
+.show_modal {
   display: block !important;
 }
-
+.modal-dialog {
+  max-width: 500px;
+  margin: 10% auto;
+}
 .modal-body {
   padding: 1.5rem;
 }
@@ -1731,5 +1734,46 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
 .sec_imp_banner{
   canvas{
     position: fixed;
+  }
+}
+
+
+.account-info{
+  ul{
+
+    .hover-elem{
+      color: #fff;
+      position: relative;
+      &:hover{
+        ul{
+          display: block;
+        }
+      }
+
+      ul{
+        position: absolute;
+        display: none;
+        li{
+
+          a{
+            color: #fff;
+            &:hover{
+              color: #ff69c9;
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
+.navbar{
+  .show{
+    display: flex!important;
+    flex-flow: column;
+  }
+  .account-info{
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
