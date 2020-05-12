@@ -1,0 +1,174 @@
+.admin_panel_wrap {
+  padding: 0px !important; }
+
+.left-bar {
+  max-width: 280px;
+  width: 100%;
+  background: #4241b8;
+  padding: 20px 10px;
+  height: 100%;
+  position: fixed;
+  justify-content: space-between;
+  display: flex;
+  flex-flow: column; }
+  .left-bar .cabinet_nav .logo_burger {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; }
+  .left-bar .cabinet_nav a {
+    display: block;
+    width: 150px; }
+    .left-bar .cabinet_nav a img {
+      width: 100%; }
+
+.menu li {
+  list-style: none;
+  color: #fff; }
+  .menu li span {
+    color: #fff;
+    display: block;
+    padding: 10px 0px; }
+  .menu li ul {
+    padding: 5px; }
+    .menu li ul li a {
+      display: block;
+      padding: 10px 0px;
+      color: #fff; }
+
+.footer_menu p {
+  color: #fff;
+  font-size: 12px;
+  display: block;
+  margin: 10px auto;
+  text-align: center; }
+.footer_menu a {
+  color: #fff;
+  font-size: 12px;
+  padding-right: 6px; }
+
+.disable {
+  position: absolute;
+  animation: OutLeft 1s ease-in;
+  animation-fill-mode: forwards; }
+
+@keyframes OutLeft {
+  0% {
+    left: 0; }
+  100% {
+    left: -100%; } }
+.show {
+  transition: .2s; }
+
+@keyframes InLeft {
+  0% {
+    left: -100%; }
+  100% {
+    left: 0; } }
+.btn_show {
+  background: url("../img/security/bars.svg") center no-repeat;
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  outline: none;
+  border: none; }
+
+.btn_close {
+  background: url("../img/security/shapes-and-symbols.svg") center no-repeat;
+  display: none;
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  position: absolute;
+  left: 1%;
+  top: 5%;
+  z-index: 50;
+  outline: none;
+  border: none; }
+
+.right_bar {
+  height: 100%;
+  width: calc(100% - 280px);
+  margin-left: 280px;
+  transition: 0.2s;
+  position: absolute;
+  right: 0; }
+
+.show-hide {
+  width: 100%;
+  margin-left: 0; }
+
+.account-info {
+  padding: 20px 50px;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(12, 0, 46, 0.04);
+  border-bottom: 1px solid #f4f4f9;
+  margin-bottom: 20px; }
+  .account-info ul {
+    margin-bottom: 0px; }
+    .account-info ul li {
+      position: relative;
+      list-style: none; }
+      .account-info ul li:hover ul {
+        display: block; }
+    .account-info ul ul {
+      display: none;
+      position: absolute;
+      z-index: 50; }
+      .account-info ul ul li a {
+        display: block; }
+
+.cart_total_box {
+  box-shadow: 1px 3px 4px 0px rgba(12, 0, 46, 0.29);
+  padding: 50px;
+  border-radius: 4px; }
+  .cart_total_box .cart-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 15px;
+    margin-bottom: 15px; }
+  .cart_total_box h5 {
+    text-align: center;
+    margin-bottom: 20px; }
+  .cart_total_box .media .media-body h3 {
+    font-size: 20px;
+    color: #263b5e;
+    font-weight: 500;
+    margin-bottom: 15px; }
+  .cart_total_box .media .media-body p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #6a7695;
+    margin-bottom: 0; }
+
+.seo_features_content a {
+  color: #fff;
+  margin: 20px auto;
+  display: block; }
+.seo_features_content p {
+  font-size: 16px;
+  color: #6a7695;
+  font-weight: 300; }
+.seo_features_content form label {
+  font-size: 16px;
+  color: #6a7695;
+  font-weight: 300; }
+.seo_features_content form input {
+  font-size: 16px;
+  color: #6a7695;
+  font-weight: 300; }
+.seo_features_content form button {
+  color: #fff; }
+
+.btn-default {
+  background-size: 200% auto;
+  background-image: -webkit-linear-gradient(left, #ff67cb 0%, #ffcc67 51%, #ff67cb);
+  background-image: linear-gradient(to right, #ff67cb 0%, #ffcc67 51%, #ff67cb);
+  border: 0;
+  outline: none;
+  text-transform: uppercase;
+  z-index: 2;
+  transition: all 0.5s ease 0s; }
+  .btn-default:hover {
+    background-position: right center; }
+
+/*# sourceMappingURL=security.css.map */
