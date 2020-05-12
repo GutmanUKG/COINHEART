@@ -171,4 +171,10 @@
   .btn-default:hover {
     background-position: right center; }
 
+.cart_total_box {
+  width: 80%;
+  margin: 0 auto; }
+  .cart_total_box a {
+    color: #fff; }
+
 /*# sourceMappingURL=security.css.map */
