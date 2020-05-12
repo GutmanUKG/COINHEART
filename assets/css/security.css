@@ -81,7 +81,7 @@
   background-size: contain;
   position: absolute;
   left: 1%;
-  top: 5%;
+  top: 20px;
   z-index: 50;
   outline: none;
   border: none; }
