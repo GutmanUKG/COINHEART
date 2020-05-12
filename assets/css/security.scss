@@ -75,8 +75,7 @@
 
 .disable {
   position: absolute;
-  animation: OutLeft 1s ease-in;
-  animation-fill-mode:forwards
+  left: -100%;
 }
 
 @keyframes OutLeft {
@@ -90,8 +89,9 @@
 }
 
 .show{
-
-  transition: .2s;
+  animation: InLeft 0.2s ease-in;
+  animation-fill-mode:forwards;
+  transition: 0.1ms;
 }
 @keyframes InLeft {
   0% {
@@ -99,12 +99,12 @@
   }
   100%{
     left: 0;
-
   }
 }
 
-.btn_show{
-  background: url("../img/security/bars.svg")center no-repeat;
+.btn_close{
+  filter: invert(1);
+  background:url("../img/security/shapes-and-symbols.svg")center no-repeat;
   display: block;
   width: 24px;
   height: 24px;
@@ -112,9 +112,9 @@
   outline: none;
   border: none;
 }
-.btn_close{
-  background: url("../img/security/shapes-and-symbols.svg")center no-repeat;
-  display: none;
+.btn_show{
+  background: url("../img/security/bars.svg")center no-repeat;
+  display: block;
   width: 24px;
   height: 24px;
   background-size: contain;
@@ -128,11 +128,12 @@
 
 .right_bar{
   height: 100%;
-  width: calc(100% - 280px);
+  //width: calc(100% - 280px);
   margin-left: 280px;
   transition: 0.2s;
   position: absolute;
   right: 0;
+  width: 100%;
 
 }
 
@@ -254,5 +255,15 @@
   margin: 0 auto;
   a{
     color: #fff;
+  }
+}
+
+@media (max-width: 768px ){
+  .right_bar{
+    margin-left: 0px;
+    width: 100%!important;
+  }
+  .left-bar{
+    z-index: 100;
   }
 }

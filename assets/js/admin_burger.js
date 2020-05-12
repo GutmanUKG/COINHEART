@@ -1,22 +1,26 @@
 window.addEventListener('DOMContentLoaded' , function () {
     let bar = document.querySelector('.left-bar'),
         btnClose = document.querySelector('.btn_close'),
-        rightBar = document.querySelector('.right_bar');
+        rightBar = document.querySelector('.right_bar'),
+        btnShow = document.querySelector('.btn_show');
 
-    bar.addEventListener('click', function (event) {
-        let target = event.target;
+        btnShow.addEventListener('click', function () {
+        bar.classList.remove('disable');
+        bar.classList.add('show');
+        btnShow.style.display = "none";
+        rightBar.style.width = 'calc(100% - 280px)'
 
-        if(target && target.classList.contains('btn_show')){
-            bar.classList.remove('show');
-            bar.classList.add('disable');
-            btnClose.style.display = 'block';
-            rightBar.classList.add('show-hide');
-        }
+
     });
     btnClose.addEventListener('click', function () {
-        btnClose.style.display = "none"
-        bar.classList.remove('disable');
-        rightBar.classList.remove('show-hide');
-    })
+        bar.classList.remove('show');
+        bar.classList.add('disable');
+        btnShow.style.display = "block"
+        rightBar.style.width = '100%'
+    });
+
+
+
+
 
 });
