@@ -3,12 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="6cc4be11-0e4f-4318-9731-fc3a557c8cec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/security.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/security.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/security.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/security.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/security.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/security.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics.html" beforeDir="false" afterPath="$PROJECT_DIR$/basics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities.html" beforeDir="false" afterPath="$PROJECT_DIR$/entities.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security.html" beforeDir="false" afterPath="$PROJECT_DIR$/security.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logo2x-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/logo2x-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logo2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/logo2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logo2x2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/security/logo2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/security/logo2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/security/logo2x2.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,14 +47,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.basics.html">
+  <component name="RunManager" selected="JavaScript Debug.token_sales.html">
     <configuration name="basics.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/basics.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="entities.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/entities.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index_login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/index_login.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="security.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/security.html" useBuiltInWebServerPort="true">
@@ -64,11 +65,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.basics.html" />
-        <item itemvalue="JavaScript Debug.security.html" />
-        <item itemvalue="JavaScript Debug.entities.html" />
-        <item itemvalue="JavaScript Debug.index_login.html" />
         <item itemvalue="JavaScript Debug.token_sales.html" />
+        <item itemvalue="JavaScript Debug.security.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.basics.html" />
+        <item itemvalue="JavaScript Debug.entities.html" />
       </list>
     </recent_temporary>
   </component>
@@ -101,6 +102,8 @@
       <workItem from="1589257025194" duration="6739000" />
       <workItem from="1589264736868" duration="5635000" />
       <workItem from="1589338916398" duration="3763000" />
+      <workItem from="1589347341100" duration="607000" />
+      <workItem from="1589364091454" duration="1552000" />
     </task>
     <servers />
   </component>
