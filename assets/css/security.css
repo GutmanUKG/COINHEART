@@ -81,7 +81,7 @@
   width: 24px;
   height: 24px;
   background-size: contain;
-  position: absolute;
+  position: fixed;
   left: 1%;
   top: 20px;
   z-index: 50;
@@ -150,6 +150,11 @@
   font-size: 16px;
   color: #6a7695;
   font-weight: 300; }
+.seo_features_content h3 {
+  font-size: 21px;
+  color: #263b5e;
+  font-weight: 500;
+  margin-bottom: 15px; }
 .seo_features_content form label {
   font-size: 16px;
   color: #6a7695;
