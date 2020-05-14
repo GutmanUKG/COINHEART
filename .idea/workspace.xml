@@ -3,14 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="6cc4be11-0e4f-4318-9731-fc3a557c8cec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/security.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/security.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/security.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/security.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/security.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/security.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/security/logo2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/security/logo2x.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basics.html" beforeDir="false" afterPath="$PROJECT_DIR$/basics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities-Identity.html" beforeDir="false" afterPath="$PROJECT_DIR$/entities-Identity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities-accreditation.html" beforeDir="false" afterPath="$PROJECT_DIR$/entities-accreditation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities-new.html" beforeDir="false" afterPath="$PROJECT_DIR$/entities-new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities-status.html" beforeDir="false" afterPath="$PROJECT_DIR$/entities-status.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/entities.html" beforeDir="false" afterPath="$PROJECT_DIR$/entities.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/preferences.html" beforeDir="false" afterPath="$PROJECT_DIR$/preferences.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/security.html" beforeDir="false" afterPath="$PROJECT_DIR$/security.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transactions.html" beforeDir="false" afterPath="$PROJECT_DIR$/transactions.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,10 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.token_sales.html">
-    <configuration name="entities-new.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/entities-new.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.trade.html">
     <configuration name="entities-status.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/entities-status.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -63,16 +65,19 @@
     <configuration name="token_sales.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/token_sales.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="trade.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/trade.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="transactions.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/transactions.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.trade.html" />
         <item itemvalue="JavaScript Debug.token_sales.html" />
         <item itemvalue="JavaScript Debug.transactions.html" />
         <item itemvalue="JavaScript Debug.entities-status.html" />
         <item itemvalue="JavaScript Debug.security.html" />
-        <item itemvalue="JavaScript Debug.entities-new.html" />
       </list>
     </recent_temporary>
   </component>
@@ -108,7 +113,7 @@
       <workItem from="1589347341100" duration="607000" />
       <workItem from="1589364091454" duration="1552000" />
       <workItem from="1589376919648" duration="6748000" />
-      <workItem from="1589431050372" duration="11455000" />
+      <workItem from="1589431050372" duration="12366000" />
     </task>
     <servers />
   </component>

@@ -368,4 +368,7 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
   .btn-status:hover {
     color: #fff; }
 
+.text-green {
+  color: #49c10e; }
+
 /*# sourceMappingURL=security.css.map */
