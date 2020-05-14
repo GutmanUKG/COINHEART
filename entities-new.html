@@ -118,45 +118,71 @@
                 </div>
             </div>
             <div class="right_bar">
-                <div class="cabinet-content">
-                    <div class="account-info d-flex justify-content-between align-items-center">
-                        <div class="breadcrumbs">
-                            <span>Account </span><span>/ Security</span>
-                        </div>
-                        <ul>
-                            <li class="hover-elem">
-                                <span> Stephanie Mitchell ▾ </span>
-                                <ul>
-                                    <li>
-                                        <a href="">Account</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Transactions</a>
-
-                                    </li>
-                                    <li>
-                                        <a href="">Log Out</a>
-
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-
+                <div class="account-info d-flex justify-content-between align-items-center">
+                    <div class="breadcrumbs">
+                        <span>Account </span><span>/ Security</span>
                     </div>
-                    <div class="col-lg-12">
-                        <div class="row">
-                            <div class="cart_total_box text-center align-items-center">
-                                <h5 class="">
-                                    To participate in token sales and manage funds you'll need to get verified.</h5>
-                                <div class="action_btn align-items-center text-center mt_40 justify-content-center">
-                                    <a href="#" class="btn btn-default">Get verified</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <ul>
+                        <li class="hover-elem">
+                            <span> Stephanie Mitchell ▾ </span>
+                            <ul>
+                                <li>
+                                    <a href="">Account</a>
+                                </li>
+                                <li>
+                                    <a href="">Transactions</a>
 
+                                </li>
+                                <li>
+                                    <a href="">Log Out</a>
+
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
 
                 </div>
+                <div class="cart_total justify-content-center">
+                    <div class="path-way">
+                        <div class="c-breadcrumb entities-progress_bar__offering_breadcrumb s-fontSize15">
+                            <a class="learn_btn_two " href="entities-new.html">Investor Registration
+                            </a>
+                            <a class="learn_btn_two" href="entities-Identity.html">Identity
+                            </a>
+                            <a class="learn_btn_two " href="entities-accreditation.html">Accreditation
+                            </a>
+                            <a class="learn_btn_two active " href="entities-status.html">Status
+                            </a>
+                        </div>
+                    </div>
+                    <form class="simple_form c-form entity_type" action="" accept-charset="UTF-8" method="post">
+                        <input name="utf8" type="hidden" value="✓">
+                        <h5><input type="hidden" name="authenticity_token" value="lz+thSzMh1MJoLjairDc/7mDn9bBkcXvQd8teIY8fHbbUtjkDngDaXB4/nD0KaA5e5msiTYyQX9n/oGL2L4grA=="><label class="c-label">Type of entity</label></h5>
+                        <input type="hidden" name="entity_type[entity_type]" value=""><label class="c-label c-label--inline" for="entity_type_entity_type_person">
+                        <input class="c-input--radio c-input c-input--optional js-entity_type" type="radio" value="person" checked="checked" name="entity_type[entity_type]" id="entity_type_entity_type_person">A person</label>
+                    </form>
+                    <form class="simple_form c-form new_entities_person" id="new_entities_person" accept-charset="UTF-8" method="post">
+                        <input name="utf8" type="hidden" value="✓">
+                        <input type="hidden" name="authenticity_token" value="lz+thSzMh1MJoLjairDc/7mDn9bBkcXvQd8teIY8fHbbUtjkDngDaXB4/nD0KaA5e5msiTYyQX9n/oGL2L4grA==">
+                        <input value="false" type="hidden" name="entities_person[fund_america_sandbox_environment]" id="entities_person_fund_america_sandbox_environment">
+                        <label class="f_p f_400" for="entities_person_first_name">Legal name of
+                            person</label>
+                        <div class="row">
+                            <div class="form-group text_box col-lg-4">
+                                <input required="required" class="c-input c-input--required" aria-required="true" placeholder="First name" type="text" name="first_name" id="entities_person_first_name" value="">
+                            </div>
+                            <div class="form-group text_box col-lg-4">
+                                <input class="c-input c-input--optional" placeholder="Middle name" type="text" name="middle_name" id="entities_person_middle_name" value="">
+                            </div>
+                            <div class="form-group text_box col-lg-4">
+                                <input required="required" class="c-input c-input--required" aria-required="true" placeholder="Last name" type="text" name="last_name" id="entities_person_last_name" value="">
+                            </div>
+                        </div>
+                        <button class="btn btn-default">Save &amp; Continue</button>
+                    </form>
+                </div>
+
+
             </div>
         </div>
     </div>
@@ -164,12 +190,11 @@
 <!--ADMIN PANEL-->
 
 
-
 <!-- Latest jQuery -->
 <script src="assets/js/jquery-1.12.4.min.js"></script>
 <!-- Latest compiled and minified Bootstrap -->
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-<!--<script src="assets/js/scripts.js"></script>-->
+<script src="assets/js/scripts.js"></script>
 <script src="assets/js/admin_burger.js"></script>
 </body>
 </html>

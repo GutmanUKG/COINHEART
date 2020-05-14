@@ -283,5 +283,89 @@ input:checked + .slider {
   .seo_features_item {
     flex-flow: column;
     text-align: center; } }
+.c-breadcrumb {
+  font-size: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px; }
+
+.learn_btn_two {
+  color: #051441;
+  font-size: 15px;
+  display: inline-block;
+  margin-top: 7px;
+  position: relative;
+  -webkit-transition: color 0.2s ease;
+  -o-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+  margin-top: 10px; }
+
+select, .text_box input[type="text"], .text_box textarea, .text_box input[type="password"], .text_box input[type="email"] {
+  font: 400 15px/60px "Poppins", sans-serif;
+  color: #222d39;
+  height: 60px;
+  border-radius: 4px;
+  background-color: white;
+  -webkit-box-shadow: 1px 3px 4px 0px rgba(12, 0, 46, 0.29);
+  box-shadow: 1px 3px 4px 0px rgba(12, 0, 46, 0.29);
+  width: 100%;
+  border: 1px solid #fff;
+  padding-left: 30px; }
+
+.select-file input[type="file"] {
+  height: 25px;
+  line-height: 20px;
+  width: 100%; }
+
+.select-file {
+  line-height: 50px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  height: 50px; }
+
+.dis-select-file {
+  height: 50px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  line-height: 50px; }
+
+.status-ul li {
+  position: relative;
+  line-height: 60px; }
+  .status-ul li:last-child:after {
+    content: '';
+    display: none; }
+  .status-ul li:before {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    border: 2px solid #5e2ced;
+    border-radius: 50%;
+    left: -40px;
+    top: calc(50% - 16px);
+    background-color: #fff;
+    z-index: 2;
+    background-size: 74%;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .status-ul li:after {
+    content: "";
+    position: absolute;
+    left: -25px;
+    height: 100%;
+    width: 2px;
+    background: #5e2ced;
+    top: 15px; }
+
+.status-ul li.icon.check:before {
+  background-image: url("../img/security/check.svg"); }
+
+.status-ul li.icon.wait:before {
+  background-image: url("../img/security/wait.svg"); }
+
+.btn-status {
+  width: max-content;
+  color: #fff; }
+  .btn-status:hover {
+    color: #fff; }
 
 /*# sourceMappingURL=security.css.map */
