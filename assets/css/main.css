@@ -1,6 +1,54 @@
 h1, h2, h4, h5, h6 {
   font-weight: bold; }
 
+a:hover, header a:hover,
+.navbar-nav li a.active,
+.navbar-expand-lg .navbar-nav .dropdown-menu li a.active,
+.navbar-expand-lg .navbar-nav .dropdown-item:hover,
+.navbar-expand-lg .navbar-nav .dropdown-item.active,
+.navbar-expand-lg .navbar-nav .dropdown.show > a,
+.social_icon li a:hover, .social_single_team li a:hover,
+.social_team a:hover, .blog_text a:hover,
+.blog_meta a:hover, .blog_meta a:hover i,
+.footer_menu li a:hover,
+.footer_link a:hover,
+.footer_social li a:hover,
+.blog_title a:hover,
+.blog_content_detail .blog_meta a:hover,
+.blog_content_detail .blog_meta li a:hover i,
+.blog_content_detail .blog_meta a:hover span,
+.v_blue .social_icon li a:hover,
+.v_blue_pro .blog_text a:hover,
+.v_blue_pro .blog_meta a:hover,
+.v_blue_pro .blog_meta a:hover i,
+.v_dark .blog_text a:hover,
+.v_dark .blog_meta a:hover,
+.v_dark .blog_meta a:hover i,
+.v_dark .social_icon li a:hover,
+.v_dark .social_single_team li a:hover,
+.breadcrumb li a:hover,
+.widget_category li a:hover,
+.widget_archive li a:hover,
+.tags li a:hover,
+.widget-post-content h6 a:hover,
+.comment-reply:hover,
+.v_blue_light .social_icon li a:hover,
+.v_light_dark .social_single_team li a:hover,
+.v_blue .social_single_team li a:hover,
+.v_royal_blue .social_icon li a:hover,
+.doc_list li a:hover,
+.v_navy_blue .nav-item a:hover,
+.v_navy_blue .nav-item a.active,
+.footer_link_s2 li a:hover,
+.roadmap_wrap .owl-nav i:hover,
+.doc_dropdown .dropdown-menu li a:hover,
+.vertical_social li a:hover,
+.doc_lan li a:hover,
+.doc_lan li a:hover span i,
+.tab_nav_s2 li.nav-item a.active,
+.tab_nav_s2 li.nav-item a:hover {
+  color: #dc74ac !important; }
+
 .navbar-brand {
   max-width: 230px;
   width: 100%;
@@ -410,7 +458,10 @@ footer {
   color: #000 !important; }
 
 .sec_airdrops {
-  padding-bottom: 50px !important; }
+  padding-bottom: 50px !important;
+  position: relative;
+  overflow: hidden;
+  padding-top: 150px; }
 
 .saas_banner_area {
   background: url("../img/Airdrops/banner_bg1.png"), #5957cd;
@@ -424,80 +475,96 @@ footer {
     color: #fff; }
     .saas_banner_area p a {
       color: #15a5ed;
-      margin-left: 10px; }
+      margin-left: 10px;
+      font-weight: 600; }
       .saas_banner_area p a:hover {
         color: #fff; }
 
 @keyframes parachute {
   0% {
-    transform: translate(0); }
-  33% {
-    transform: translate(-70px, 70px) rotateZ(3deg); }
-  66% {
-    transform: translate(70px, 70px) rotateZ(-3deg); }
+    transform: rotate(0deg);
+    transition: 0.1s;
+    top: -18%; }
+  25% {
+    transform: rotate(3deg);
+    top: -10%; }
+  50% {
+    transform: rotate(0deg);
+    transition: 0.1s;
+    top: -5%; }
+  75% {
+    transform: rotate(-3deg);
+    transition: 0.1s;
+    top: -15%; }
   100% {
-    transform: translate(0); } }
-.parachute {
-  animation: parachute 7s cubic-bezier(0.47, 0, 0.75, 0.72) infinite;
-  transform-origin: top; }
+    transform: rotate(0deg);
+    transition: 0.1s;
+    top: -18%; } }
+.mt-30 {
+  margin-top: 30px; }
 
-.cloud-left {
-  animation: cloud-left 4s cubic-bezier(0.47, 0, 0.75, 0.72) infinite;
-  transform-origin: left; }
+.keyframes_parashute {
+  position: relative; }
+  .keyframes_parashute .cloudcontent .col-lg-12 .saas_banner_content p {
+    margin-bottom: 0px;
+    color: #000; }
 
+.cloudcontent {
+  width: 100%; }
+  .cloudcontent img {
+    width: 150px;
+    display: block; }
+    .cloudcontent img:first-child {
+      transform-origin: top;
+      position: absolute;
+      width: 500px; }
+    .cloudcontent img:nth-child(2) {
+      animation: parachute 6s infinite;
+      transform-origin: top;
+      position: absolute;
+      width: 500px;
+      z-index: -100;
+      top: -18%;
+      transform: rotate(0deg);
+      left: -20%; }
+    .cloudcontent img:nth-child(3) {
+      animation: parachute 10s infinite;
+      transform-origin: top;
+      position: absolute;
+      width: 500px;
+      z-index: -100;
+      top: -18%;
+      transform: rotate(0deg);
+      left: 80%; }
+    .cloudcontent img:nth-child(4) {
+      animation: parachute 12s infinite;
+      transform-origin: top;
+      position: absolute;
+      width: 150px;
+      z-index: -100;
+      top: -18%;
+      transform: rotate(0deg);
+      left: 50%; }
+
+@media (max-width: 1024px) {
+  .cloudcontent {
+    padding: 0 !important; }
+    .cloudcontent img:nth-child(2) {
+      left: 26%; }
+    .cloudcontent img:nth-child(3) {
+      display: none; }
+    .cloudcontent img:nth-child(4) {
+      display: none; } }
 @keyframes cloud-left {
   0% {
-    transform: translate(0) scale(1); }
+    transform: rotate(3deg); }
   33% {
-    transform: translate(1px, -5px) rotateZ(-3deg); }
+    transform: rotate(-3deg); }
   66% {
-    transform: translate(5px, -5px) rotateZ(3deg) scale(1.1); }
+    top: -3%;
+    transform: rotate(3deg); }
   100% {
-    transform: translate(0) scale(1); } }
-@keyframes dot-1 {
-  0% {
-    fill: #fff; }
-  50% {
-    fill: #5f51fb; }
-  100% {
-    fill: #fff; } }
-.dot-1 {
-  animation: dot-1 4s cubic-bezier(0.47, 0, 0.75, 0.72) infinite; }
-
-.dots {
-  transition: 0.225s; }
-
-.dot-2 {
-  animation: dot-2 4s cubic-bezier(0.47, 0, 0.75, 0.72) infinite; }
-
-@keyframes dot-2 {
-  0% {
-    fill: #fff; }
-  50% {
-    fill: #ae59cb; }
-  100% {
-    fill: #fff; } }
-.dot-3 {
-  animation: dot-3 4s cubic-bezier(0.47, 0, 0.75, 0.72) infinite; }
-
-@keyframes dot-3 {
-  0% {
-    fill: #fff; }
-  50% {
-    fill: #fd609b; }
-  100% {
-    fill: #fff; } }
-.cloud-right {
-  animation: cloud-right 5s cubic-bezier(0.47, 0, 0.75, 0.72) infinite;
-  transform-origin: bottom; }
-
-@keyframes cloud-right {
-  0% {
-    transform: translateY(-5px) rotateZ(-1deg); }
-  50% {
-    transform: translateY(5px) rotateZ(1deg); }
-  100% {
-    transform: translateY(-5px) rotateZ(-1deg); } }
+    transform: rotate(-3deg); } }
 .software_featured_area {
   background: url("../img/Airdrops/banner_bg1.png"); }
 
