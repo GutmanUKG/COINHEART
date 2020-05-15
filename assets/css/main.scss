@@ -1491,7 +1491,9 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
 }
 
 .section_banner_zeon {
-  background: linear-gradient(270deg, rgba(25, 61, 192, 1) 0%, rgba(10, 29, 149, 1) 50%, rgba(25, 61, 192, 1) 100%);
+  background:url("../img/zeon/343120-PAKXSK-994.png") right no-repeat, linear-gradient(270deg, rgba(25, 61, 192, 1) 0%, rgba(10, 29, 149, 1) 50%, rgba(25, 61, 192, 1) 100%);
+  background-size: contain;
+  padding: 250px 100px;
 }
 
 
@@ -1551,23 +1553,23 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
     }
   }
 }
+
+.line{
+  width: 100%;
+  background: #fff;
+  height: 3px;
+  margin: 20px auto;
+}
 .item_pack {
   padding: 2rem;
   margin-bottom: 20px;
-  background: linear-gradient(40deg, #290a59 0%, #3d57f4 100%);
+  //background: linear-gradient(40deg, #290a59 0%, #3d57f4 100%);
   border-radius: 5px;
   position: relative;
-  &:before{
-    border: 3px solid #ff67cb;
-    border-radius: 10px;
-    bottom: 30px;
-    content: "";
-    left: -30px;
-    position: absolute;
-    right: -30px;
-    top: -30px;
-    z-index: -1;
+  img{
+    max-width: 150px;
   }
+
   h6{
     margin-bottom: 10px;
     color: #fff;
