@@ -175,6 +175,8 @@
   text-transform: uppercase;
   z-index: 2;
   transition: all 0.5s ease 0s;
+  color: #fff;
+  font-weight: 600;
   display: flex;
   align-items: center;
   min-height: 45px; }
@@ -298,7 +300,7 @@ input:checked + .slider {
   -webkit-transition: color 0.2s ease;
   -o-transition: color 0.2s ease;
   transition: color 0.2s ease;
-  margin-top: 10px; }
+  margin-left: 10px; }
 
 select, .text_box input[type="text"], .text_box textarea, .text_box input[type="password"], .text_box input[type="email"] {
   font: 400 15px/60px "Poppins", sans-serif;
@@ -370,5 +372,12 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
 
 .text-green {
   color: #49c10e; }
+
+.c-label {
+  margin-bottom: 40px; }
+
+.c-hint {
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
 /*# sourceMappingURL=security.css.map */
