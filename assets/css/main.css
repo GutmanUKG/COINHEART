@@ -907,10 +907,22 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
 .section_banner_zeon {
   background: url("../img/zeon/343120-PAKXSK-994.png") right no-repeat, linear-gradient(270deg, #193dc0 0%, #0a1d95 50%, #193dc0 100%);
   background-size: contain;
-  padding: 250px 100px; }
+  padding: 300px 100px; }
+  .section_banner_zeon #banner_canvas {
+    position: fixed !important; }
+  .section_banner_zeon .angle_bottom {
+    border-bottom: 100px solid #0867ce;
+    border-left: 100vw solid transparent;
+    bottom: 0;
+    display: block;
+    height: 0;
+    position: absolute;
+    right: 0;
+    width: 0;
+    z-index: 9; }
 
 .section_credit_lines {
-  background: #f9f9fc; }
+  background: linear-gradient(270deg, #193dc0 0%, #0a1d95 50%, #193dc0 100%); }
   .section_credit_lines h2 {
     color: #fff;
     margin-bottom: 20px; }
@@ -964,9 +976,6 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
     font-size: 18px; }
   .item_pack p {
     font-size: 15px; }
-
-.section_credit_lines {
-  background: #151cd1; }
 
 .ripple_effect_left_bottom {
   position: absolute;
