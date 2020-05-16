@@ -9,11 +9,10 @@
       <change beforePath="$PROJECT_DIR$/assets/css/security.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/security.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/security.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/security.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/security.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/security.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exchange_engineer.html" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_engineer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fullstack-engineer.html" beforeDir="false" afterPath="$PROJECT_DIR$/fullstack-engineer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/investorsupport.html" beforeDir="false" afterPath="$PROJECT_DIR$/investorsupport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lead-application-security-engineer.html" beforeDir="false" afterPath="$PROJECT_DIR$/lead-application-security-engineer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lead-exchange-devops.html" beforeDir="false" afterPath="$PROJECT_DIR$/lead-exchange-devops.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/zeon/343120-PAKXSK-994.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/zeon/343120-PAKXSK-994.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lend.html" beforeDir="false" afterPath="$PROJECT_DIR$/lend.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/satt.html" beforeDir="false" afterPath="$PROJECT_DIR$/satt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transactions.html" beforeDir="false" afterPath="$PROJECT_DIR$/transactions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zeon.html" beforeDir="false" afterPath="$PROJECT_DIR$/zeon.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,17 +53,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index_login.html">
+  <component name="RunManager" selected="JavaScript Debug.lend.html">
     <configuration name="airdrops.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/airdrops.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="careers.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/careers.html" useBuiltInWebServerPort="true">
+    <configuration name="entities-accreditation.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/entities-accreditation.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="entities-Identity.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/entities-Identity.html" useBuiltInWebServerPort="true">
+    <configuration name="lend.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/lend.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index_login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/index_login.html" useBuiltInWebServerPort="true">
+    <configuration name="transactions.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/transactions.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="zeon.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/zeon.html" useBuiltInWebServerPort="true">
@@ -72,11 +71,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index_login.html" />
-        <item itemvalue="JavaScript Debug.zeon.html" />
-        <item itemvalue="JavaScript Debug.entities-Identity.html" />
-        <item itemvalue="JavaScript Debug.careers.html" />
+        <item itemvalue="JavaScript Debug.lend.html" />
         <item itemvalue="JavaScript Debug.airdrops.html" />
+        <item itemvalue="JavaScript Debug.transactions.html" />
+        <item itemvalue="JavaScript Debug.zeon.html" />
+        <item itemvalue="JavaScript Debug.entities-accreditation.html" />
       </list>
     </recent_temporary>
   </component>
@@ -117,6 +116,7 @@
       <workItem from="1589541613336" duration="2280000" />
       <workItem from="1589599849651" duration="996000" />
       <workItem from="1589614297669" duration="1862000" />
+      <workItem from="1589635197742" duration="4249000" />
     </task>
     <servers />
   </component>
