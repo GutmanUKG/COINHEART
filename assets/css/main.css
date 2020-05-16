@@ -922,11 +922,14 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
 .section_banner_zeon {
   background: linear-gradient(270deg, #193dc0 0%, #0a1d95 50%, #193dc0 100%);
   background-size: contain;
-  padding: 300px 100px;
+  padding-top: 300px;
+  padding-bottom: 120px;
+  padding-left: 100px;
+  padding-right: 100px;
   position: relative; }
   .section_banner_zeon .bg_banner_zeon {
     max-width: 940px;
-    margin: 0 auto;
+    margin: 20px auto;
     display: block;
     width: 100%; }
   .section_banner_zeon #banner_canvas {
