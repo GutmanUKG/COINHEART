@@ -667,7 +667,8 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
 
 .min_title {
   font-weight: 600;
-  font-size: 20px !important; }
+  font-size: 20px !important;
+  margin-top: 30px; }
 
 .company_banner_content {
   margin-top: 50px; }
@@ -1322,5 +1323,33 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
 
 .help_form .status {
   color: #5957cd; }
+
+.sing_form {
+  background: url("../images/home_banner_bg.png"); }
+
+.c-dropzone {
+  border: 2px dashed #eeeeee;
+  padding: 16px;
+  text-align: center;
+  border-radius: 0px;
+  position: relative; }
+  .c-dropzone div {
+    color: #fff; }
+
+.c-dropzone [type='file'] {
+  cursor: pointer;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+
+select, .text_box input[type="text"], .text_box textarea, .text_box input[type="password"], .text_box input[type="email"] {
+  font-size: 1rem; }
 
 /*# sourceMappingURL=main.css.map */

@@ -3,24 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="6cc4be11-0e4f-4318-9731-fc3a557c8cec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airdrops.html" beforeDir="false" afterPath="$PROJECT_DIR$/airdrops.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/careers.html" beforeDir="false" afterPath="$PROJECT_DIR$/careers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coinimp.html" beforeDir="false" afterPath="$PROJECT_DIR$/coinimp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq_help.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq_help.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/security.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/security.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/about_img.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/about_img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics.html" beforeDir="false" afterPath="$PROJECT_DIR$/basics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_engineer.html" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_engineer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fullstack-engineer.html" beforeDir="false" afterPath="$PROJECT_DIR$/fullstack-engineer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/investorsupport.html" beforeDir="false" afterPath="$PROJECT_DIR$/investorsupport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lead-application-security-engineer.html" beforeDir="false" afterPath="$PROJECT_DIR$/lead-application-security-engineer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lead-exchange-devops.html" beforeDir="false" afterPath="$PROJECT_DIR$/lead-exchange-devops.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lend.html" beforeDir="false" afterPath="$PROJECT_DIR$/lend.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monet.html" beforeDir="false" afterPath="$PROJECT_DIR$/monet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/privacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/privacy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/satt.html" beforeDir="false" afterPath="$PROJECT_DIR$/satt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preferences.html" beforeDir="false" afterPath="$PROJECT_DIR$/preferences.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security.html" beforeDir="false" afterPath="$PROJECT_DIR$/security.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terms.html" beforeDir="false" afterPath="$PROJECT_DIR$/terms.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/token_sales.html" beforeDir="false" afterPath="$PROJECT_DIR$/token_sales.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zeon.html" beforeDir="false" afterPath="$PROJECT_DIR$/zeon.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,29 +59,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.terms.html">
-    <configuration name="preferences.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/preferences.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.exchange_engineer.html">
+    <configuration name="entities-Identity.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/entities-Identity.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="privacy.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/privacy.html" useBuiltInWebServerPort="true">
+    <configuration name="entities-accreditation.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/entities-accreditation.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="satt.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/satt.html" useBuiltInWebServerPort="true">
+    <configuration name="entities.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/entities.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="exchange_engineer.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/exchange_engineer.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="signup.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/signup.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="terms.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/terms.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.terms.html" />
+        <item itemvalue="JavaScript Debug.exchange_engineer.html" />
+        <item itemvalue="JavaScript Debug.entities-Identity.html" />
+        <item itemvalue="JavaScript Debug.entities-accreditation.html" />
+        <item itemvalue="JavaScript Debug.entities.html" />
         <item itemvalue="JavaScript Debug.signup.html" />
-        <item itemvalue="JavaScript Debug.satt.html" />
-        <item itemvalue="JavaScript Debug.privacy.html" />
-        <item itemvalue="JavaScript Debug.preferences.html" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +124,7 @@
       <workItem from="1589614297669" duration="1862000" />
       <workItem from="1589635197742" duration="7120000" />
       <workItem from="1590204131750" duration="3353000" />
-      <workItem from="1590209165213" duration="473000" />
+      <workItem from="1590209165213" duration="3218000" />
     </task>
     <servers />
   </component>
