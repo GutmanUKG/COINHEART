@@ -676,7 +676,10 @@ footer {
 .col-lg-12 {
   .saas_banner_content {
     .w_color {
-      color: #000 !important;
+      color: #ffffff !important;
+    }
+    p{
+      color: #ffffff!important;
     }
   }
 }
@@ -1035,7 +1038,10 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
   }
 
 }
-
+.min_title{
+  font-weight: 600;
+  font-size: 20px!important;
+}
 .company_banner_content {
   margin-top: 50px;
 
@@ -1312,6 +1318,11 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
   h5 {
     button {
       font-size: 1rem;
+      color: #FFFFFF;
+      &:hover{
+        color: #FFFFFF;
+        text-decoration: none;
+      }
     }
   }
 }
@@ -1898,5 +1909,27 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
 @media(max-width: 375px){
   .cloudcontent img:nth-child(2){
     left: 0;
+  }
+}
+#service-specific-terms-of-service{
+  section{
+    padding: 0;
+  }
+}
+.nav-item{
+  .nav-link{
+    color: #000;
+    &:hover{
+      color: #ff69c9;
+    }
+  }
+}
+.form-control{
+  font-size: 1rem!important;
+}
+.help_form{
+
+  .status{
+    color: #5957cd;
   }
 }
