@@ -180,12 +180,14 @@ h4 {
     background: #fff;
     margin: 0 auto; }
 
-.newsletter_form button {
-  bottom: 5px; }
-
 .input-rounded {
   font-size: 15px;
   padding-right: 225px; }
+
+.status {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 20px; }
 
 .mt-40 {
   margin-top: 40px; }

@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cc4be11-0e4f-4318-9731-fc3a557c8cec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/security.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/security.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/security.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/security.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/security.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/security.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -48,14 +47,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.entities-Identity.html">
-    <configuration name="airdrops.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/airdrops.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="entities-Identity.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/entities-Identity.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="entities-accreditation.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/entities-accreditation.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="lend.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/lend.html" useBuiltInWebServerPort="true">
@@ -66,11 +65,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.entities-Identity.html" />
         <item itemvalue="JavaScript Debug.entities-accreditation.html" />
         <item itemvalue="JavaScript Debug.zeon.html" />
         <item itemvalue="JavaScript Debug.lend.html" />
-        <item itemvalue="JavaScript Debug.airdrops.html" />
       </list>
     </recent_temporary>
   </component>
@@ -111,7 +110,8 @@
       <workItem from="1589541613336" duration="2280000" />
       <workItem from="1589599849651" duration="996000" />
       <workItem from="1589614297669" duration="1862000" />
-      <workItem from="1589635197742" duration="6349000" />
+      <workItem from="1589635197742" duration="7120000" />
+      <workItem from="1590204131750" duration="583000" />
     </task>
     <servers />
   </component>
