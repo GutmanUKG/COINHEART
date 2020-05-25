@@ -1693,3 +1693,42 @@ section.small_pb {
 }
 }
 
+@media (max-width: 575px) {
+	.work_inner {
+		margin: 0 auto; } }
+
+@media (max-width: 768px) {
+	.slick-arrow {
+		display: none !important; }
+
+	.slick-prev {
+		display: none; } }
+
+@media (max-width: 1024px) {
+	.cloudcontent {
+		padding: 0 !important; }
+	.cloudcontent img:nth-child(2) {
+		left: 26%; }
+	.cloudcontent img:nth-child(3) {
+		display: none; }
+	.cloudcontent img:nth-child(4) {
+		display: none; } }
+
+@media (max-width: 768px) {
+	.card-header h5 button {
+		font-size: 7px; } }
+
+@media only screen and (max-width: 767px) {
+	.section_banner_zeon .angle_bottom {
+		border-bottom: 50px solid #0867ce !important; } }
+@media only screen and (max-width: 480px) {
+	.section_banner_zeon .angle_bottom {
+		border-bottom: 20px solid #0867ce !important; } }
+
+
+@media (max-width: 768px) {
+	.item_pack:before {
+		display: none; } }
+@media (max-width: 375px) {
+	.cloudcontent img:nth-child(2) {
+		left: 0; } }

@@ -67,9 +67,7 @@ h1, h2, h4, h5, h6 {
   margin-bottom: 40px;
   color: #000; }
 
-@media (max-width: 575px) {
-  .work_inner {
-    margin: 0 auto; } }
+
 .wraper {
   width: 300px;
   height: 300px;
@@ -300,12 +298,7 @@ footer {
     left: 90%;
     background: url("../img/TokenSales/fast-forward.png") center no-repeat, linear-gradient(to right, #ff67cb 0%, #ffcc67 99%); }
 
-@media (max-width: 768px) {
-  .slick-arrow {
-    display: none !important; }
 
-  .slick-prev {
-    display: none; } }
 .slid .head_slid {
   max-width: 500px;
   margin: 20px auto; }
@@ -510,15 +503,7 @@ footer {
       transform: rotate(0deg);
       left: 50%; }
 
-@media (max-width: 1024px) {
-  .cloudcontent {
-    padding: 0 !important; }
-    .cloudcontent img:nth-child(2) {
-      left: 26%; }
-    .cloudcontent img:nth-child(3) {
-      display: none; }
-    .cloudcontent img:nth-child(4) {
-      display: none; } }
+
 @keyframes cloud-left {
   0% {
     transform: rotate(3deg); }
@@ -842,9 +827,7 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
     color: #FFFFFF;
     text-decoration: none; }
 
-@media (max-width: 768px) {
-  .card-header h5 button {
-    font-size: 7px; } }
+
 #description_form {
   color: #000; }
 
@@ -958,12 +941,7 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
     width: 0;
     z-index: 9; }
 
-@media only screen and (max-width: 767px) {
-  .section_banner_zeon .angle_bottom {
-    border-bottom: 50px solid #0867ce !important; } }
-@media only screen and (max-width: 480px) {
-  .section_banner_zeon .angle_bottom {
-    border-bottom: 20px solid #0867ce !important; } }
+
 .section_credit_lines {
   background: linear-gradient(270deg, #193dc0 0%, #0a1d95 50%, #193dc0 100%); }
   .section_credit_lines h2 {
@@ -997,9 +975,6 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
   .section_wallet_features .text_wallet {
     color: #fff; }
 
-@media (max-width: 768px) {
-  .item_pack:before {
-    display: none; } }
 .line {
   width: 100%;
   background: #fff;
@@ -1307,9 +1282,7 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
     .wrap_item_saat ul li:nth-child(even) {
       background: #dee2e6; }
 
-@media (max-width: 375px) {
-  .cloudcontent img:nth-child(2) {
-    left: 0; } }
+
 #service-specific-terms-of-service section {
   padding: 0; }
 
@@ -1325,7 +1298,7 @@ select, .text_box input[type="text"], .text_box textarea, .text_box input[type="
   color: #5957cd; }
 
 .sing_form {
-  background: url("../images/home_banner_bg.png"); }
+  background: url("../images/home_banner_bg.png"), #5957cd; }
 
 .c-dropzone {
   border: 2px dashed #eeeeee;
