@@ -592,7 +592,9 @@ Version      : 1.7
                     title: 'Snazzy!'
                 });
             }	
-			
+
+
+
 					
 })(jQuery);
 

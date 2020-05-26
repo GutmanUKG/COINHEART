@@ -6,7 +6,13 @@
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_engineer.html" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_engineer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-engineer.html" beforeDir="false" afterPath="$PROJECT_DIR$/fullstack-engineer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/investorsupport.html" beforeDir="false" afterPath="$PROJECT_DIR$/investorsupport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lead-application-security-engineer.html" beforeDir="false" afterPath="$PROJECT_DIR$/lead-application-security-engineer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lead-exchange-devops.html" beforeDir="false" afterPath="$PROJECT_DIR$/lead-exchange-devops.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,11 +52,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.login.html">
-    <configuration name="basics.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/basics.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.investorsupport.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/index.html" useBuiltInWebServerPort="true">
+    <configuration name="investorsupport.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/investorsupport.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Job coinheart/login.html" useBuiltInWebServerPort="true">
@@ -64,11 +70,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.investorsupport.html" />
         <item itemvalue="JavaScript Debug.login.html" />
         <item itemvalue="JavaScript Debug.signup.html" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.security.html" />
-        <item itemvalue="JavaScript Debug.basics.html" />
       </list>
     </recent_temporary>
   </component>
@@ -115,6 +121,7 @@
       <workItem from="1590384728603" duration="600000" />
       <workItem from="1590422829280" duration="767000" />
       <workItem from="1590430997100" duration="211000" />
+      <workItem from="1590493790131" duration="3552000" />
     </task>
     <servers />
   </component>
